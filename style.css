@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(217, 54%, 11%);
+    font-family: 'Outfit', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.secPrincipal {
+    background-color: hsl(216, 50%, 16%);
+    width: 22vw;
+    height: 75vh;
+    margin: auto;
+    border-radius: 3%;
+    z-index: 1;
+    position: relative;
+}
+
+#imgEqui {
+    width: 18vw;
+    border-radius: 7px;
+    margin-top: 6%;
+}
+
+.divImg {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.meio {
+    width: 24vw;
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.titulo {
+    color: hsl(0, 0%, 100%);
+    font-weight: 600;
+    width: 20vw;
+    margin: 15% 0 7% 0;
+}
+
+.frase {
+    color: hsl(215, 51%, 70%);
+    width: 20vw;
+    margin-bottom: 7%;
+}
+
+.money {
+    color: hsl(178, 100%, 50%);
+}
+
+.days {
+    color: hsl(215, 51%, 70%);
+    font-weight: 400;
+}
+
+.divDays {
+    margin-right: 13%;
+}
+
+.info {
+    width: 20vw;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10%;
+}
+
+.linha {
+    background-color: hsla(215, 52%, 70%, 0.432);
+    width: 80%;
+    height: 1px;
+    margin: auto;
+    margin-top: 4%;
+}
+
+.imgPerfil {
+    width: 10%;
+    border: 2px solid white;
+    border-radius: 50px;
+}
+
+.fraseRodape {
+    color: hsl(215, 51%, 70%);
+    margin-top: 3%;
+    padding-right: 10%;
+}
+
+.nome {
+    color: hsl(0, 0%, 100%);
+}
+
+.divRodape {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 7%;
+}
+
+.secSecundaria {
+    background-color: hsla(214, 78%, 7%, 0.212);
+    width: 25vw;
+    height: 80vh;
+    margin: auto;
+    border-radius: 3%;
+    position: absolute;
+
+}
